@@ -5,14 +5,16 @@ import profile2 from './image/profile2.png'
 import profile4 from './image/profile4.gif'
 import SingleComment from './SingleComment';
 import UserCard from './UserCard';
+import "./UserCard.css";
 
 const App = () => {
     return(
+        
         <div className = "ui comments">
            <UserCard>
             <SingleComment 
                  name = "Faust" 
-                 message = "Back to square one" 
+                 message = "What's up everyone! Back to square one" 
                  time = "Today at 4:00AM" 
                  picture  = {profile4}/>
            </UserCard>
@@ -33,7 +35,7 @@ const App = () => {
            picture  = {profile1}/> 
         </UserCard>   
         </div>
-       
+        
     )
 }
 

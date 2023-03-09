@@ -1,7 +1,9 @@
 import React from 'react';
+import "./UserCard.css";
 
 const UserCard = (props) => {
     return(
+        
         <div className = "ui card">
             <div className = "content">
                   <div className = "header">{props.children}</div>
@@ -14,6 +16,7 @@ const UserCard = (props) => {
                 Add Friend
             </div>
         </div>
+       
     )
 
 }
